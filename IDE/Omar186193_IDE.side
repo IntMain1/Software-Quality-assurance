@@ -1,0 +1,241 @@
+{
+  "id": "37ffe08d-1cdf-4773-8589-5945ec6f8241",
+  "version": "2.0",
+  "name": "Omar186193",
+  "url": "https://www.oasisfashion.com/",
+  "tests": [{
+    "id": "df491b4d-b5b5-46b4-b7fc-3df7b8dc132e",
+    "name": "View_Item",
+    "commands": [{
+      "id": "c856338c-2461-4e88-b080-b8862158ba7c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.oasisfashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e35b20c4-fe0a-4100-bbaa-5c3a6514183e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "825x990",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e809b3d-8431-45b3-9c94-8bd8f3a55b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-toggle",
+      "targets": [
+        ["css=.menu-toggle", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4cd7187-ecfd-42da-8a73-dbca0bafafbf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CLOTHING",
+      "targets": [
+        ["linkText=CLOTHING", "linkText"],
+        ["css=.clothing-menu > .is-mobile", "css:finder"],
+        ["xpath=//nav[@id='mobile-navigation']/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a24f38-f95a-46f3-a20a-31dd86bde93b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All Clothing",
+      "targets": [
+        ["linkText=All Clothing", "linkText"],
+        ["css=.is-in-view > .menu-vertical:nth-child(2) li:nth-child(4) > .menu-item", "css:finder"],
+        ["xpath=//nav[@id='mobile-navigation']/div/div[2]/ul/li[3]/ul/div/ol/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.oasisfashion.com/womens/clothing')])[5]", "xpath:href"],
+        ["xpath=//li[3]/ul/div/ol/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d372df48-66df-4d67-b610-edda28b20060",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\32 4f000f0b2c4c9f2001aa1c210 .lazyloaded",
+      "targets": [
+        ["css=#\\32 4f000f0b2c4c9f2001aa1c210 .lazyloaded", "css:finder"],
+        ["xpath=(//img[contains(@src,'data:image/svg;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAADCAQAAAAT4xYKAAAADklEQVR42mNkAAJGOAEAAC0ABNxMS2YAAAAASUVORK5CYII=')])[2]", "xpath:img"],
+        ["xpath=//div[@id='24f000f0b2c4c9f2001aa1c210']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "532eee83-560e-40f8-8b64-a9557b1ece75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb:nth-child(2) .thumb-image",
+      "targets": [
+        ["css=.thumb:nth-child(2) .thumb-image", "css:finder"],
+        ["xpath=(//img[@alt='Black Floral Printed Satin Halter Belted Jumpsuit alternative image'])[2]", "xpath:img"],
+        ["xpath=//ul[@id='js-alt-images']/li[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b26ca1f6-4813-4279-a36e-85e4ca13f465",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.thumb:nth-child(3) .thumb-image",
+      "targets": [
+        ["css=.thumb:nth-child(3) .thumb-image", "css:finder"],
+        ["xpath=(//img[@alt='Black Floral Printed Satin Halter Belted Jumpsuit alternative image'])[3]", "xpath:img"],
+        ["xpath=//ul[@id='js-alt-images']/li[3]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[3]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94d082f8-69c6-4b65-9a0b-08190177a4e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb:nth-child(3) .thumb-image",
+      "targets": [
+        ["css=.thumb:nth-child(3) .thumb-image", "css:finder"],
+        ["xpath=(//img[@alt='Black Floral Printed Satin Halter Belted Jumpsuit alternative image'])[3]", "xpath:img"],
+        ["xpath=//ul[@id='js-alt-images']/li[3]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[3]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80b49859-ca5b-4c25-b55a-20add7b0488b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mz-thumb-selected .thumb-image",
+      "targets": [
+        ["css=.mz-thumb-selected .thumb-image", "css:finder"],
+        ["xpath=(//img[@alt='Black Floral Printed Satin Halter Belted Jumpsuit alternative image'])[3]", "xpath:img"],
+        ["xpath=//ul[@id='js-alt-images']/li[3]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[3]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fd8fb2c4-1de8-4a65-afc6-8aa8c8a1b1e2",
+    "name": "Search_product_code",
+    "commands": [{
+      "id": "25ffa53e-3358-4165-91f3-4f023a31f27a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.oasisfashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ea82c89-97a3-4299-a5d1-c851bbf36bc7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "825x990",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "508cfe9b-d6d6-4d35-87f5-fd6a1fcc165b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div[2]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cdd1af-52c8-4868-ae86-4d9696fd258b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.js-header-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "AAA05477"
+    }, {
+      "id": "1698f5c4-9f5b-4380-926e-2525efcbca92",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.js-header-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "575f6bdf-fa53-4b79-bf8b-b67f8d51532a",
+    "name": "Search_wrong_product_code",
+    "commands": [{
+      "id": "35eba412-ea96-45cd-a385-c0b8078af348",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.oasisfashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fb70ca9-0447-4da0-8274-99eead12c587",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "854x1017",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea6bd43b-f600-49e9-acea-1514edb56a35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div[2]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71f74065-7920-4eec-bc04-b5db5fe2f663",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.js-header-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "abs123456"
+    }, {
+      "id": "f9721540-0dec-4ed6-8b7a-f750ee6cbe9b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.js-header-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[4]/div/div[2]/div/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "fff733b6-c382-41c6-8797-4b434cf49284",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df491b4d-b5b5-46b4-b7fc-3df7b8dc132e"]
+  }],
+  "urls": ["https://www.oasisfashion.com/", "https://www.oasisfashion.com/clothing", "https://www.oasisfashion.com/womens/dresses"],
+  "plugins": []
+}
